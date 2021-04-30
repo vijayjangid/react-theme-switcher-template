@@ -1,0 +1,10 @@
+.theme-toggle {
+  background: none;
+  border: none;
+  font-size: 2em;
+  padding: 0;
+  width: 2em;
+  height: 2em;
+  box-shadow: var(--shadow);
+  position: absolute;
+}
