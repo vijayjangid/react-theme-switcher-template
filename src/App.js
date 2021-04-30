@@ -1,4 +1,4 @@
-import React, { useCallback, useContext } from "react";
+import React, { useContext } from "react";
 import ThemeToggle from "./ThemeToggle";
 import { ThemeContext } from "./state/ThemeContext";
 import "./styles.css";
