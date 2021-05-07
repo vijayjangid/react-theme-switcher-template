@@ -6,10 +6,10 @@ const Sun = () => <>&#9728;</>;
 const Moon = () => <>&#9790;</>;
 
 const ThemeToggle = () => {
-  const { isDarkTheme, setTheme } = useContext(ThemeContext);
+  const { isDarkTheme, toggleTheme } = useContext(ThemeContext);
   const onToggle = useCallback(() => {
-    setTheme((theme) => !theme);
-  }, [setTheme]);
+    toggleTheme((theme) => !theme);
+  }, [toggleTheme]);
 
   const themeSymbol = isDarkTheme ? <Sun /> : <Moon />;
   return (

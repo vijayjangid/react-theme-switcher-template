@@ -1,0 +1,12 @@
+.random-char-grid {
+  height: 100%;
+  display: grid;
+  place-items: center;
+}
+.random-char {
+  color: var(--text);
+  font-size: 40vmin;
+  font-weight: bolder;
+  text-transform: uppercase;
+  text-shadow: 0 0 15px var(--textShadow);
+}

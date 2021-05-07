@@ -1,6 +1,7 @@
 import React, { useContext } from "react";
 import ThemeToggle from "./ThemeToggle";
 import { ThemeContext } from "./state/ThemeContext";
+import RandomChar from "./RandomChar";
 import "./styles.css";
 
 export default function App() {
@@ -9,6 +10,7 @@ export default function App() {
   return (
     <div className={"App " + themeClass}>
       <ThemeToggle />
+      <RandomChar />
     </div>
   );
 }
