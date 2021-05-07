@@ -14,5 +14,5 @@
 
 ## Folder Structure
 - `State` folder contains the context to provide current theme selection and method to toggle theme. It makes use of `useState, useEffect` hooks to create and share context. Additionally, the localStorage API is used to persist theme selection in browser storage.
-- `ThemeToggle` component renders the button to toggle theme.
+- `ThemeToggle` component renders the button to toggle theme. It makes use of `useContext` hook to access context.
 - `Styles.css` in `src` directory defines the variable/properties for various CSS values like background, text color, shadow, text shadow, border etc.
