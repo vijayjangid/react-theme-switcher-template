@@ -1,4 +1,4 @@
-# Theme switcher in React
+# Theme switcher template in React
 
 ### Using React Hooks, Context API & CSS Variables (Custom Props)
 
